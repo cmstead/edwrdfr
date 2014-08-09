@@ -1,8 +1,6 @@
 (defproject edwrdfr "0.1.0-SNAPSHOT"
-  :description "FIXME: write description"
-  :url "http://example.com/FIXME"
-  :license {:name "Eclipse Public License"
-            :url "http://www.eclipse.org/legal/epl-v10.html"}
+  :description "A vowel remover. It removes lower-case vowels."
+  :url "http://www.chrisstead.com"
   :dependencies [[org.clojure/clojure "1.6.0"]]
   :main ^:skip-aot edwrdfr.core
   :target-path "target/%s"

@@ -1,28 +1,27 @@
 # edwrdfr
 
-FIXME: description
+Edwrdfr is a program to modernize your strings by removing all the lower-case vowels.
 
 ## Installation
 
-Download from http://example.com/FIXME.
+Just download the jar file and run it.
 
 ## Usage
 
 FIXME: explanation
 
-    $ java -jar edwrdfr-0.1.0-standalone.jar [args]
+    $ java -jar edwrdfr.jar <your string with or without spaces>
 
 ## Options
 
-FIXME: listing of options this app accepts.
+No options, just a string
 
 ## Examples
 
-...
-
-### Bugs
-
-...
+    $ java -jar edwrdfr.jar Product name
+    
+    ; Output:
+    ; Prdct nm
 
 ### Any Other Sections
 ### That You Think
@@ -30,7 +29,4 @@ FIXME: listing of options this app accepts.
 
 ## License
 
-Copyright © 2014 FIXME
-
-Distributed under the Eclipse Public License either version 1.0 or (at
-your option) any later version.
+This is free. You want it? You can use and distribute it. You don't even need to give me attribution. Enjoy.
