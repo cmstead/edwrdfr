@@ -23,10 +23,6 @@ No options, just a string
     ; Output:
     ; Prdct nm
 
-### Any Other Sections
-### That You Think
-### Might be Useful
-
 ## License
 
 This is free. You want it? You can use and distribute it. You don't even need to give me attribution. Enjoy.
