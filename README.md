@@ -8,7 +8,7 @@ Just download the jar file and run it.
 
 ## Usage
 
-FIXME: explanation
+Execute the jar as you would any java jar (like the following) and pass in a string you want to "modernize."
 
     $ java -jar edwrdfr.jar <your string with or without spaces>
 
