@@ -10,13 +10,15 @@ Just download the jar file and run it.
 
 Execute the jar as you would any java jar (like the following) and pass in a string you want to "modernize."
 
-    $ java -jar edwrdfr.jar [-y] <your string with or without spaces>
+    $ java -jar edwrdfr.jar [-h, -y] <your string with or without spaces>
 
 The -y switch enables the y-removal option
 
 ## Options
 
 Enable y character removal with the -y switch.
+
+Display help information with the -h switch.
 
 ## Examples
 

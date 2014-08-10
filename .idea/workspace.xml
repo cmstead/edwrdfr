@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d951be52-53c8-4221-b60a-fc7adf09bbcd" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/edwrdfr/core.clj" afterPath="$PROJECT_DIR$/src/edwrdfr/core.clj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/edwrdfr/core_test.clj" afterPath="$PROJECT_DIR$/test/edwrdfr/core_test.clj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/edwrdfr/help.clj" afterPath="$PROJECT_DIR$/src/edwrdfr/help.clj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/edwrdfr/util.clj" afterPath="$PROJECT_DIR$/src/edwrdfr/util.clj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="edwrdfr.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -41,12 +38,12 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/project.clj" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/test/edwrdfr/util_test.clj" />
         <option value="$PROJECT_DIR$/src/edwrdfr/help.clj" />
         <option value="$PROJECT_DIR$/src/edwrdfr/core.clj" />
         <option value="$PROJECT_DIR$/test/edwrdfr/core_test.clj" />
         <option value="$PROJECT_DIR$/src/edwrdfr/util.clj" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -366,17 +363,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.46471602" vertical-offset="0" max-vertical-offset="660">
-          <caret line="18" column="46" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/edwrdfr/core.clj">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5180921" vertical-offset="0" max-vertical-offset="608">
@@ -413,6 +399,17 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.22203948" vertical-offset="0" max-vertical-offset="608">
           <caret line="9" column="15" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5163511" vertical-offset="0" max-vertical-offset="690">
+          <caret line="20" column="44" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
           <folding />
         </state>
       </provider>
