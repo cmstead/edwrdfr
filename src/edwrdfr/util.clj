@@ -4,12 +4,12 @@
 
 (def vowels "aeiou");
 
-(defn pattern-remover [vowel-set astr]
+(defn remove-pattern [vowel-set astr]
   (str/replace astr
     (-> (str "[" vowel-set "]") (re-pattern))
     ""))
 
-(defn vowel-builder [args]
+(defn build-vowels [args]
   (if (= (first args) "-y")
     (str vowels "y")
     (str vowels)))
