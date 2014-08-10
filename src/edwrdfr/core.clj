@@ -1,19 +1,22 @@
 (ns edwrdfr.core
-  (:gen-class))
+  (:gen-class)
+  (:require [clojure.string :as str :refer [blank?]]))
 
-(def vowels "a,e,i,o,u");
+(def vowels "aeiou");
 
 (defn print-values [value-vector]
   (when (seq value-vector)
     (print (first value-vector) " ")
     (recur (rest value-vector))))
 
-(defn pattern-remover [vowels astr]
-  (.replaceAll astr (str "[" vowels "]") ""))
+(defn pattern-remover [vowel-set astr]
+  (str/replace astr
+               (-> (str "[" vowel-set "]") (re-pattern))
+               ""))
 
 (defn vowel-builder [args]
   (if (= (first args) "-y")
-    (str vowels ",y")
+    (str vowels "y")
     (str vowels)))
 
 (defn update-strings [args]
