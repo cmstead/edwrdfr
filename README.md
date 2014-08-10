@@ -16,7 +16,7 @@ The -y switch enables the y-removal option
 
 ## Options
 
-No options, just a string
+Enable y character removal with the -y switch.
 
 ## Examples
 
