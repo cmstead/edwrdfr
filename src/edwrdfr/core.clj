@@ -9,17 +9,17 @@
     (map (partial util/remove-pattern vowel-set)
          (util/get-arg-set args vowel-set))))
 
-(defn print-values [value-vector]
-  (if (seq value-vector)
-    (do
-      (print (first value-vector) " ")
-      (recur (rest value-vector)))
-    (println)))
+(defn build-value-str
 
-(defn edwrdfy [args]
-  (-> (update-strings args) (print-values)))
+  ([value-vector]
+  (build-value-str "" value-vector))
+
+  ([output-value value-vector]
+  (if (seq value-vector)
+    (build-value-str (str output-value (first value-vector) " ") (rest value-vector))
+    (identity output-value))))
 
 (defn -main [& args]
-  (if (or (not (seq args)) (= (first args) "-h"))
+  (if (help/check-help-switch args)
     (help/help)
-    (edwrdfy args)))
+    (-> (update-strings args) (build-value-str) (println))))

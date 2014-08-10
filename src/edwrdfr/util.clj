@@ -6,8 +6,8 @@
 
 (defn remove-pattern [vowel-set astr]
   (str/replace astr
-    (-> (str "[" vowel-set "]") (re-pattern))
-    ""))
+               (-> (str "[" vowel-set "]") (re-pattern))
+               ""))
 
 (defn build-vowels [args]
   (if (= (first args) "-y")

@@ -1,6 +1,11 @@
 (ns edwrdfr.help
   (:gen-class))
 
+(defn check-help-switch [args]
+  (or
+    (empty? args)
+    (= (first args) "-h")))
+
 (defn help []
   "I hated looking at this in the core file, so I moved it."
   (println)

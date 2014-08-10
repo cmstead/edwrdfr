@@ -12,9 +12,11 @@
   (with-redefs-fn {#'help/help (fn [] true)}
     #(is (-main "-h"))))
 
-(deftest test-main-args
-  (with-redefs-fn {#'edwrdfy (fn [x] true)}
-    #(is (-main "blah"))))
+(deftest test-build-value-str
+  (is (= (build-value-str "" ["test" "value"]) "test value ")))
+
+(deftest test-build-value-str-single-arity
+  (is (= (build-value-str ["test" "value"]) "test value ")))
 
 (deftest test-update-strings-standard-mode
   (is (= (update-strings ["my" "test" "value"]) ["my" "tst" "vl"])))
