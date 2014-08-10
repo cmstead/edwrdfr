@@ -10,7 +10,9 @@ Just download the jar file and run it.
 
 Execute the jar as you would any java jar (like the following) and pass in a string you want to "modernize."
 
-    $ java -jar edwrdfr.jar <your string with or without spaces>
+    $ java -jar edwrdfr.jar [-y] <your string with or without spaces>
+
+The -y switch enables the y-removal option
 
 ## Options
 
@@ -18,10 +20,19 @@ No options, just a string
 
 ## Examples
 
-    $ java -jar edwrdfr.jar Product name
+Standard use (y-removal disabled)
+
+    $ java -jar edwrdfr.jar My new product name
     
     ; Output:
-    ; Prdct nm
+    ; My  nw  prdct  nm
+
+Y-removal use
+
+    $ java -jar edwrdfr.jar -y My new product name
+    
+    ; Output:
+    ; M  nw  prdct  nm
 
 ## License
 
